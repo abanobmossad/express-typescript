@@ -19,8 +19,8 @@ services:
     restart: always
     ports:
       - 7000:7000
-    volumes:
-      - "./logs:/usr/src/server/logs"
+    # volumes:
+    #   - "./logs:/usr/src/server/logs"
     env_file:
       - example.env
     environment:
