@@ -1,0 +1,6 @@
+{
+  "watch": ["src/**", ".env"],
+  "ext": "js,ts,json",
+  "ignore": ["src/logs/*", "src/**/*.{spec,test}.ts", ".git", "node_modules/**/node_modules"],
+  "exec": "./node_modules/.bin/ts-node-dev --respawn  --ignore-watch --quiet -r tsconfig-paths/register src/server.ts"
+}
